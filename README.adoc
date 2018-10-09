@@ -1,0 +1,20 @@
+= MakeIT 2018 - Spring Security 5: The New OAuth 2.0 Stuff
+
+This repo contains demos to accompany http://www.makeit.si/index.php/program/java-devops/item/40-spring-security-5-the-new-oauth-2-0-stuff[Spring Security 5: The New OAuth 2.0 Stuff] talk at MakeIT 2018.
+
+== Prerequisites
+
+* Java 8
+* Git
+
+== Building the project
+
+```shell
+$ git clone git@github.com:vpavic/makeit18-spring-security-5-oauth2.git
+$ cd makeit18-spring-security-5-oauth2
+$ ./gradlew build
+```
+
+== Demos
+
+TODO.
