@@ -14,3 +14,5 @@ pluginManagement {
 }
 
 rootProject.name = 'makeit18-spring-security-5-oauth2'
+
+include 'demo-client'

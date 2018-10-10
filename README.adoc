@@ -17,4 +17,6 @@ $ ./gradlew build
 
 == Demos
 
-TODO.
+=== demo-client
+
+Demonstrates Spring Security's new OAuth 2.0 Client features.
