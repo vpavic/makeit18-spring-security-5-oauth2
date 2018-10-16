@@ -20,3 +20,7 @@ $ ./gradlew build
 === demo-client
 
 Demonstrates Spring Security's new OAuth 2.0 Client features.
+
+=== demo-resource-server
+
+Demonstrates Spring Security's new OAuth 2.0 Resource Server features.

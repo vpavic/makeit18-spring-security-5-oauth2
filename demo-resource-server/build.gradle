@@ -1,0 +1,11 @@
+apply plugin: 'org.springframework.boot'
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework.boot:spring-boot-starter-security'
+
+    compile 'org.springframework.security:spring-security-oauth2-jose'
+    compile 'org.springframework.security:spring-security-oauth2-resource-server'
+
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
+}
