@@ -1,11 +1,11 @@
 package demo;
 
+import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
-import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
 
-@EnableWebSecurity
+@Configuration
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
@@ -14,7 +14,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         http
             .oauth2ResourceServer()
                 .jwt()
-                    .jwkSetUri("https://raw.githubusercontent.com/vpavic/makeit18-spring-security-5-oauth2/master/demo-resource-server/etc/jwks.json")
                     .and()
                 .and()
             .sessionManagement()
